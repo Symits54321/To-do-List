@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+                 <!-- To-do-list box -->
+    <div id="to-do-list">
+
+
+                        <!-- top/nav  (input box and add button)-->
+                <section id="nav">
+                    <input type="text" id="inputText" placeholder="Write and click enter or add buttion to add in list">
+                    <button id="add">Add</button>
+                </section>
+
+                        <!-- small-nav  -->
+                <section id="small-nav">
+                    <button id="allcompleted">All completed</button>
+                    <button id="clearcompleted">clear completed</button>  
+                </section>
+               
+               
+                    <!-- list section  -->
+                <section id="list-section">
+                    <ul>
+                        <!-- <li>
+                            <input type="checkbox">
+                        
+                            
+                            <div class="textline"> TEXT
+
+                            </div>
+                            <button class="toDelete">X</button>
+                            
+                            
+                            
+                        </li> -->
+
+                    </ul>     
+                </section>
+
+                    <!-- footer section  -->
+                <section id="footer">
+                        <!-- no. of task  -->
+                        <div id="total-task"> 
+                            <p><span id="tasknum">0</span> task completed</p>
+                        </div>
+                            <!-- all completed and uncompleted buttons area  -->
+                        <div id="task-categories">
+                            <button id="all">All</button>
+                            <button id="completed">Completed</button>
+                            <button id="uncompleted">Uncompleted</button>
+                        </div>
+
+                </section>
+
+
+    </div>
+
+
+
+    <script src="index.js"></script>
+   
+</body>
+</html>
